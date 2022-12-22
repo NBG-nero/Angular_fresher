@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-textcomponent',
+  selector: 'ncomponent',
   templateUrl: './textcomponent.component.html',
   styleUrls: ['./textcomponent.component.css']
 })
