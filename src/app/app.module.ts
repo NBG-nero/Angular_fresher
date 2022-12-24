@@ -6,17 +6,22 @@ import { AppComponent } from './app.component';
 import { TextcomponentComponent } from './textcomponent/textcomponent.component';
 import { ImagecomponentComponent } from './imagecomponent/imagecomponent.component';
 import { EmpInfoComponent } from './emp-info/emp-info.component';
+import { FormCompComponent } from './form-comp/form-comp.component';
+import {FormsModule} from "@angular/forms";
+
 
 @NgModule({
   declarations: [
     AppComponent,
     TextcomponentComponent,
     ImagecomponentComponent,
-    EmpInfoComponent
+    EmpInfoComponent,
+    FormCompComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
