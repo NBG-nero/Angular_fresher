@@ -26,4 +26,7 @@ constructor(private rservice: RecordsService) {
 
 }
 
+updateInfo(frm: any){ 
+  this.rservice.addInfo(frm.value.location)
+}
 }
