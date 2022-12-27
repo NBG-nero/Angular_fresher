@@ -8,7 +8,11 @@ import { ImagecomponentComponent } from './imagecomponent/imagecomponent.compone
 import { EmpInfoComponent } from './emp-info/emp-info.component';
 import { FormCompComponent } from './form-comp/form-comp.component';
 import {FormsModule} from "@angular/forms";
-import { EInfoComponent } from './e-info/e-info.component';
+
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { IntroComponent } from './components/intro/intro.component';
+import { CoursesComponent } from './components/courses/courses.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -18,7 +22,11 @@ import { EInfoComponent } from './e-info/e-info.component';
     ImagecomponentComponent,
     EmpInfoComponent,
     FormCompComponent,
-    EInfoComponent
+  
+    NavbarComponent,
+    IntroComponent,
+    CoursesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
