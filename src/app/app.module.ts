@@ -12,7 +12,7 @@ import {FormsModule} from "@angular/forms";
 import { NavbarComponent } from './components/navbar/navbar.component';
 
 
-import { FooterComponent } from './components/footer/footer.component';
+
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 
@@ -28,7 +28,7 @@ import { HomeComponent } from './components/home/home.component';
     NavbarComponent,
 
  
-    FooterComponent,
+  
     LoginComponent,
     HomeComponent
   ],
