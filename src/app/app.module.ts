@@ -10,7 +10,7 @@ import { FormCompComponent } from './form-comp/form-comp.component';
 import {FormsModule} from "@angular/forms";
 
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { IntroComponent } from './components/intro/intro.component';
+
 import { CoursesComponent } from './components/courses/courses.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './components/login/login.component';
@@ -26,7 +26,7 @@ import { HomeComponent } from './components/home/home.component';
     FormCompComponent,
   
     NavbarComponent,
-    IntroComponent,
+
     CoursesComponent,
     FooterComponent,
     LoginComponent,
